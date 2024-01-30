@@ -1,0 +1,73 @@
+.gta-main {
+  display: flex;
+  position: relative;
+  min-height: calc(100vh - 80px);
+}
+
+.gta-main::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.7) 35%,
+    transparent 65%
+  );
+}
+
+.gta-main__bg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.gta-main__infos {
+  position: absolute;
+  z-index: 1;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  padding: 80px 80px 80px 170px;
+  max-width: 780px;
+}
+
+.gta-main__infos img {
+  max-width: 150px;
+}
+
+.gta-main__infos--games {
+  display: flex;
+  gap: 32px;
+}
+
+.gta-main__infos--title {
+  font-family: "ChaletComprime";
+  font-size: 55px;
+}
+
+.gta-main__infos--description {
+  font-family: "Chalet";
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.gta-main__infos--link {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+  font-family: "ChaletComprime";
+  font-size: 28px;
+  text-align: center;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  width: 50%;
+  transition: all 0.3s ease-in;
+}
+
+.gta-main__infos--link:hover {
+  background-color: #fff;
+  color: #000;
+}

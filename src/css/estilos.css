@@ -1,0 +1,10 @@
+@import url(./reset.css);
+@import url(./fontes.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./section.css);
+
+body {
+  background-color: #282828;
+  color: #fff;
+}

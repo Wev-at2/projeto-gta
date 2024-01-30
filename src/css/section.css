@@ -1,0 +1,129 @@
+.gta-buynow__banner {
+  width: 270px;
+}
+
+.gta-buynow {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+  align-items: center;
+}
+
+.gta-buynow__title {
+  font-family: "ChaletComprime";
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.gta-buynow__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  width: 50%;
+  border-radius: 10px;
+  padding: 80px;
+  gap: 40px;
+}
+
+.gta-buynow__text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.gta-buynow__subtitle {
+  font-family: "ChaletComprime";
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.gta-buynow__description {
+  color: #e8e8e8;
+  font-family: "Chalet";
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.gta-buynow__platforms-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.gta-btn__platform {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+  font-family: "ChaletComprime";
+  font-size: 28px;
+  text-align: center;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  width: 50%;
+  transition: all 0.3s ease-in;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+}
+
+.gta-btn__platform .platforms {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.3s ease-in;
+  display: none;
+  opacity: 0;
+}
+
+.gta-btn__platform .platforms.ativo {
+  display: flex;
+  opacity: 1;
+}
+
+.gta-btn__platform .platforms li {
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+
+.gta-btn__platform .platforms li:nth-child(1) {
+  border: 1px solid #00439c;
+}
+
+.gta-btn__platform .platforms li:nth-child(1):hover {
+  background-color: #00439c;
+}
+.gta-btn__platform .platforms li:nth-child(2) {
+  border: 1px solid #387a26;
+}
+
+.gta-btn__platform .platforms li:nth-child(2):hover {
+  background-color: #387a26;
+}
+
+.gta-btn__platform .platforms li:nth-child(3) {
+  border: 1px solid #00439c;
+}
+
+.gta-btn__platform .platforms li:nth-child(3):hover {
+  background-color: #00439c;
+}
+
+.gta-btn__platform .platforms li:nth-child(4) {
+  border: 1px solid #387a26;
+}
+
+.gta-btn__platform .platforms li:nth-child(4):hover {
+  background-color: #387a26;
+}
+.gta-btn__platform .platforms li:nth-child(5) {
+  border: 1px solid #fcaf17;
+}
+
+.gta-btn__platform .platforms li:nth-child(5):hover {
+  background-color: #fcaf17;
+}
